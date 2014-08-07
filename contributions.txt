@@ -33,7 +33,7 @@ version=4
 download=http://www.local-guru.net/projects/ttslib/ttslib.zip
 id=092
 
-example
+examples-package
 name=G4P Examples
 authorList=[Peter Lager](http://www.lagers.org.uk)
 url=http://www.lagers.org.uk/g4p
@@ -46,7 +46,7 @@ download=https://github.com/joelmoniz/G4P_Examples/archive/master.zip
 compatibleModesList=PDE X, Java
 id=219
 
-example
+examples-package
 name=Lalala Examples
 authorList=[Me!!!](http://www.lagers.org.uk)
 url=http://www.lagers.org.uk/g4p
