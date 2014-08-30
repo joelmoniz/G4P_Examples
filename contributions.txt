@@ -33,12 +33,27 @@ version=4
 download=http://www.local-guru.net/projects/ttslib/ttslib.zip
 id=092
 
+tool
+name=A very old tool
+authorList=[Joel Moniz](http://www.joelmoniz.com)
+url=http://www.joelmoniz.com
+category=nil
+sentence=Tool to show incompatibility with Processing 3.0.
+paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
+version=217
+prettyVersion=0.4
+download=https://github.com/joelmoniz/G4P_Examples/archive/master.zip
+compatibleModesList=processing.mode.java.JavaMode, de.bezier.mode.coffeescript.CoffeeScriptMode
+maxRevision=220
+lastUpdated=1197461532000
+id=300
+
 examples-package
-name=G4P Examples
-authorList=[Peter Lager](http://www.lagers.org.uk)
-url=http://www.lagers.org.uk/g4p
-category=GUI
-sentence=Provides a set of 2D GUI controls and multiple window support.
+name=Sample Examples
+authorList=[Joel Moniz](http://www.joelmoniz.com)
+url=http://www.joelmoniz.com
+category=nil
+sentence=Adapted from Peter Lager's G4P GUI Builder.
 paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
 version=217
 prettyVersion=3.4
@@ -47,11 +62,11 @@ compatibleModesList=processing.mode.java.JavaMode, de.bezier.mode.coffeescript.C
 id=219
 
 examples-package
-name=Lalala Examples
+name=Test Examples
 authorList=[Me!!!](http://www.lagers.org.uk)
 url=http://www.lagers.org.uk/g4p
 category=GUI
-sentence=Provides a set of 2D GUI controls and multiple window support.
+sentence=Test examples-package.
 paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
 version=218
 prettyVersion=3.4
