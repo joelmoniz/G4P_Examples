@@ -33,12 +33,12 @@ version=4
 download=http://www.local-guru.net/projects/ttslib/ttslib.zip
 id=092
 
-tool
-name=A very old tool
+mode
+name=A very old mode
 authorList=[Joel Moniz](http://www.joelmoniz.com)
 url=http://www.joelmoniz.com
 category=nil
-sentence=Tool to show incompatibility with Processing 3.0.
+sentence=Mode to show incompatibility with Processing 3.0.
 paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
 version=217
 prettyVersion=0.4
