@@ -1,5 +1,5 @@
 library
-category=Sound
+category=Sound,3D
 authorList=[Severin Smith](http://www.smallbutdigital.com/)
 name=The MidiBus
 sentence=The MidiBus is a minimal MIDI library for Processing, no frills, no limitations.
