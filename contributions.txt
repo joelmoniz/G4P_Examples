@@ -48,31 +48,6 @@ maxRevision=220
 lastUpdated=1197461532000
 id=300
 
-examples-package
-name=Sample Examples
-authorList=[Joel Moniz](http://www.joelmoniz.com)
-url=http://www.joelmoniz.com
-category=nil
-sentence=Adapted from Peter Lager's G4P GUI Builder.
-paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
-version=217
-prettyVersion=3.4
-download=https://github.com/joelmoniz/G4P_Examples/archive/master.zip
-compatibleModesList=processing.mode.java.JavaMode, de.bezier.mode.coffeescript.CoffeeScriptMode
-id=219
-
-examples-package
-name=Test Examples
-authorList=[Me!!!](http://www.lagers.org.uk)
-url=http://www.lagers.org.uk/g4p
-category=GUI
-sentence=Test examples-package.
-paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
-version=218
-prettyVersion=3.4
-compatibleModesList=processing.mode.java.JavaMode
-id=220
-
 library
 category=Sound
 authorList=[Alessandro Capozzo](http://www.abstract-codex.net)
@@ -477,7 +452,7 @@ url=http://rednoise.org/rita/
 prettyVersion=1.0.65
 paragraph=RiTa is a library for experiments in natural language and generative writing. Components include text-generation (via context-free grammars and Markov-chains), tagging (for syllables, phonemes, stresses, and parts-of-speech), conjugation, pluralization, stemming, letter-to-phoneme mapping, text-mining, a user-customizable lexicon, and facilities for text display and animation. RiTa and RiTaJS (the JavaScript version) work alone or in conjunction with Processing and NodeJS, and are free, libre, and open-source (via a GPL license).
 version=1065
-imports=rita
+imports=rita.*
 download=http://www.rednoise.org/rita/RiTa.zip
 id=063
 
@@ -948,6 +923,7 @@ paragraph=
 version=7
 download=http://www.looksgood.de/libraries/Ani/Ani-latest.zip
 id=003
+imports=de.looksgood.ani.*
 
 library
 category=Animation
@@ -1556,3 +1532,28 @@ prettyVersion=3.4
 download=https://github.com/joelmoniz/G4P_Examples/archive/master.zip
 compatibleModesList=processing.mode.java.JavaMode, de.bezier.mode.coffeescript.CoffeeScriptMode
 id=2190
+
+examples-package
+name=Sample Examples
+authorList=[Joel Moniz](http://www.joelmoniz.com)
+url=http://www.joelmoniz.com
+category=nil
+sentence=Adapted from Peter Lager's G4P GUI Builder.
+paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
+version=217
+prettyVersion=3.4
+download=https://github.com/joelmoniz/G4P_Examples/archive/master.zip
+compatibleModesList=processing.mode.java.JavaMode, de.bezier.mode.coffeescript.CoffeeScriptMode
+id=219
+
+examples-package
+name=Test Examples
+authorList=[Me!!!](http://www.lagers.org.uk)
+url=http://www.lagers.org.uk/g4p
+category=GUI
+sentence=Test examples-package.
+paragraph=Controls include buttons, sliders, knobs, labels, textfields, timers, combo boxes, option buttons etc. and multiple windows.  [G4P GUI builder](http://www.lagers.org.uk/g4ptool/index.html) is a companion tool that enables the rapid (visual) development of user interfaces with this library.   
+version=218
+prettyVersion=3.4
+compatibleModesList=processing.mode.java.JavaMode
+id=220
